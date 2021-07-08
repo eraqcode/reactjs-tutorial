@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing in <Saludo /> component show <Saludo /> coponent correctly 1`] = `
+<section>
+  <header
+    className="header-saludo"
+  >
+    <h1>
+       
+      Hi, I´m Erik!!!
+       
+    </h1>
+    <h3>
+       
+      A simple web developer
+       
+    </h3>
+  </header>
+</section>
+`;

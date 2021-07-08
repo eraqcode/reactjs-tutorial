@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Name of the group show the <Counter /> component correctly 1`] = `
+<section>
+  <header
+    className="header-counter"
+  >
+    <h2>
+      My Counter
+    </h2>
+  </header>
+  <div
+    className="container"
+  >
+    <h3>
+       Count: 
+      20
+       
+    </h3>
+    <div
+      className="buttons"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+      >
+        +
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+      >
+        Reset
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+      >
+        -
+      </button>
+    </div>
+  </div>
+</section>
+`;

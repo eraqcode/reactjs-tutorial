@@ -1,0 +1,18 @@
+.main__users {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__users img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.main__users h1,
+.main__users h3,
+.main__users h4 {
+    color: wheat;
+}

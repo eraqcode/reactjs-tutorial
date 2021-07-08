@@ -1,0 +1,9 @@
+.img {
+    animation: animacion 4s ease-in-out 0.5s infinite;
+}
+
+@keyframes animacion {
+    to {
+        transform: rotate(1turn);
+    }
+}

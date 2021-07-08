@@ -1,0 +1,16 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-items: center;
+}
+
+.btn-1 {
+    margin-left: 5px;
+    
+}
+
+.dark {
+    font-weight: 700;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,47 @@
+nav {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .1);
+    display: flex;
+    min-height: 8vh;
+}
+
+.nav__logo {
+    width: 15%;
+    text-align: center;
+}
+
+.nav__wrapper {
+    width: 30%;
+}
+
+.nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    width: 100%;
+    justify-self: center;
+}
+
+.item__link {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.active {
+    border-bottom: 2px solid rgb(218, 22, 201);
+    font-weight: 700;
+}

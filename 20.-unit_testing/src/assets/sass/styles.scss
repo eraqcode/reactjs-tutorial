@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Sansita Swashed';
+    src: url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap");
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Sansita Swashed', cursive ;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}

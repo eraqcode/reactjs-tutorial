@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(1, 43, 63);
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.btn {
+    width: 120px;
+    height: 50px;
+    font-size: 1.8rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn__login {
+    background-color: rgb(226, 240, 98);
+    color: rgb(0, 0, 0);
+}
+
+.btn__logout {
+    background-color: rgb(211, 206, 206);
+    border: 2px solid rgb(228, 23, 183);
+}

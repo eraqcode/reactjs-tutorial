@@ -1,0 +1,16 @@
+body {
+    background-color: $primary;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.link {
+    color: lighten($color: $secondary, $amount: 10);
+}

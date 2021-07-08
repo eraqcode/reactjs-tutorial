@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.form__group {
+    @apply flex;
+    @apply flex-col;
+    @apply mt-4;
+}
+
+.label__form {
+    @apply mb-2;
+    @apply text-white;
+    @apply text-base;
+    @apply font-medium;
+}
